@@ -6,11 +6,26 @@
 }
 .digital{
     width:100%;
-   min-height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(to right,rgb(131, 44, 44),rgb(141, 19, 19));
     color: #fff;
     position: relative;
 }
+.icon {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.icon img {
+    width: 150px;
+    height: auto;
+    display: block;
+    filter: brightness(0) invert(1);
+}
+
 
 .container{
     width: 800px;
@@ -29,7 +44,7 @@
     align-items: center;
     justify-content: center;
     background: rgb(177, 89, 89);
-    /*backdrop-filter: blur(40px);*/
+    backdrop-filter: blur(40px);
 }
 
 .clock span{
